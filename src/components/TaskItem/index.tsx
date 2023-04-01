@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image, TouchableOpacity } from "react-native";
 
-import { ItemsProps } from "../../screens/Home";
+import { ItemsProps } from "../../Home"
 
 import TrashIcon from '../../assets/trash.png'
 import CheckIcon from '../../assets/check.png'
