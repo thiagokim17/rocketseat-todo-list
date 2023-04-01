@@ -1,6 +1,8 @@
 import React, { useState, useCallback, useEffect } from "react";	
 import { Alert, Text, View, Image, TextInput, TouchableOpacity } from "react-native";
 
+import { TaskList } from "../components/TaskList";
+
 import Logo from '../assets/logo.png'
 import PlusIcon from '../assets/plusIcon.png'
 
@@ -62,6 +64,7 @@ export const Home = () => {
             <Text style={styles.valueCounter}>{String(finishedItems)}</Text>
           </View>
         </View>
+        <TaskList items={items} setItems={setItems}/>
       </View>
     </View>
   );
